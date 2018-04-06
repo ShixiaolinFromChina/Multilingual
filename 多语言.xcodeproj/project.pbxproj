@@ -15,6 +15,8 @@
 		DC71D236207688B900B45883 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC71D235207688B900B45883 /* main.m */; };
 		DC71D240207688B900B45883 /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC71D23F207688B900B45883 /* ___Tests.m */; };
 		DC71D24B207688B900B45883 /* ___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC71D24A207688B900B45883 /* ___UITests.m */; };
+		DC71D25E20768C0E00B45883 /* InterNational.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC71D26020768C0E00B45883 /* InterNational.strings */; };
+		DC71D26520768D4100B45883 /* SwichLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = DC71D26420768D4100B45883 /* SwichLanguage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,15 @@
 		DC71D246207688B900B45883 /* 多语言UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "多语言UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC71D24A207688B900B45883 /* ___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___UITests.m"; sourceTree = "<group>"; };
 		DC71D24C207688B900B45883 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC71D25820768B1800B45883 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		DC71D25920768B1800B45883 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		DC71D25F20768C0E00B45883 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InterNational.strings; sourceTree = "<group>"; };
+		DC71D26320768D4100B45883 /* SwichLanguage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwichLanguage.h; sourceTree = "<group>"; };
+		DC71D26420768D4100B45883 /* SwichLanguage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwichLanguage.m; sourceTree = "<group>"; };
+		DC71D2672077D16600B45883 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InterNational.strings"; sourceTree = "<group>"; };
+		DC71D2682077D1BF00B45883 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		DC71D2692077D1BF00B45883 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		DC71D26A2077D1D500B45883 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InterNational.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +92,7 @@
 		DC71D21A207688B900B45883 = {
 			isa = PBXGroup;
 			children = (
+				DC71D26020768C0E00B45883 /* InterNational.strings */,
 				DC71D225207688B900B45883 /* 多语言 */,
 				DC71D23E207688B900B45883 /* 多语言Tests */,
 				DC71D249207688B900B45883 /* 多语言UITests */,
@@ -105,6 +117,8 @@
 				DC71D227207688B900B45883 /* AppDelegate.m */,
 				DC71D229207688B900B45883 /* ViewController.h */,
 				DC71D22A207688B900B45883 /* ViewController.m */,
+				DC71D26320768D4100B45883 /* SwichLanguage.h */,
+				DC71D26420768D4100B45883 /* SwichLanguage.m */,
 				DC71D22C207688B900B45883 /* Main.storyboard */,
 				DC71D22F207688B900B45883 /* Assets.xcassets */,
 				DC71D231207688B900B45883 /* LaunchScreen.storyboard */,
@@ -220,6 +234,8 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
+				ja,
 			);
 			mainGroup = DC71D21A207688B900B45883;
 			productRefGroup = DC71D224207688B900B45883 /* Products */;
@@ -239,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC71D233207688B900B45883 /* LaunchScreen.storyboard in Resources */,
+				DC71D25E20768C0E00B45883 /* InterNational.strings in Resources */,
 				DC71D230207688B900B45883 /* Assets.xcassets in Resources */,
 				DC71D22E207688B900B45883 /* Main.storyboard in Resources */,
 			);
@@ -265,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC71D26520768D4100B45883 /* SwichLanguage.m in Sources */,
 				DC71D22B207688B900B45883 /* ViewController.m in Sources */,
 				DC71D236207688B900B45883 /* main.m in Sources */,
 				DC71D228207688B900B45883 /* AppDelegate.m in Sources */,
@@ -307,6 +325,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				DC71D22D207688B900B45883 /* Base */,
+				DC71D25820768B1800B45883 /* zh-Hans */,
+				DC71D2682077D1BF00B45883 /* ja */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -315,8 +335,20 @@
 			isa = PBXVariantGroup;
 			children = (
 				DC71D232207688B900B45883 /* Base */,
+				DC71D25920768B1800B45883 /* zh-Hans */,
+				DC71D2692077D1BF00B45883 /* ja */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DC71D26020768C0E00B45883 /* InterNational.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC71D25F20768C0E00B45883 /* en */,
+				DC71D2672077D16600B45883 /* zh-Hans */,
+				DC71D26A2077D1D500B45883 /* ja */,
+			);
+			name = InterNational.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -326,6 +358,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -381,6 +414,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

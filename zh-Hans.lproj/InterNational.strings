@@ -1,0 +1,14 @@
+/* 
+  InterNational.strings
+  多语言
+
+  Created by coder on 2018/4/6.
+  Copyright © 2018年 coder. All rights reserved.
+*/
+"label" = "这是中文";
+"button" = "切换语言";
+"chinese" = "中文";
+"japanese" = "日文";
+"english" = "英文";
+"switch_lang" = "设置语言";
+"cancel" = "取消";

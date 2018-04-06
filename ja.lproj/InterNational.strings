@@ -1,0 +1,14 @@
+/* 
+  InterNational.strings
+  多语言
+
+  Created by coder on 2018/4/6.
+  Copyright © 2018年 coder. All rights reserved.
+*/
+"label" = "これは中国語です";
+"button" = "言語の切り替え";
+"chinese" = "中国語";
+"japanese" = "日本語";
+"english" = "英語";
+"switch_lang" = "言語を設定する";
+"cancel" = "キャンセル";
